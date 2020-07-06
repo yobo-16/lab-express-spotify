@@ -69,7 +69,7 @@ app.get('/albums/:artistId', (req, res, next) => {
 
             console.log('The albums received data from the API: ', JSON.stringify(data.body));
 
-            //sacar los datos
+            //sacar los datos 
 
             res.render('albums', {
                 data
